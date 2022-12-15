@@ -89,7 +89,7 @@ def run():
     else:
         st.markdown("invalid")
 
-    st.markdown("The data is taken from kaggle which is originally taken from a public domain platform, data.world. The dataset has 40k records and 13 different emotions(classes). The models that are used are Gaussian Naive Bayes and Random Forest.")
+    #st.markdown("The data is taken from kaggle which is originally taken from a public domain platform, data.world. The dataset has 40k records and 13 different emotions(classes). The models that are used are Gaussian Naive Bayes and Random Forest.")
 
     
 model = load_model()
